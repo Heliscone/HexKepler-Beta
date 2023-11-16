@@ -53,10 +53,3 @@ Woo! You should now have something like this:
 In the below image, use an M3x16mm screw for the left hole and an M3x12mm screw for the right hole:
 
 ![Screenshot 2023-11-15 220304](https://github.com/Heliscone/HexKepler-Beta/assets/58831250/8dfcf7b0-2c4f-440f-a133-3b480e836112)
-
-
-
-
-
-
-![image](https://github.com/Heliscone/HexKepler-Beta/assets/58831250/260f0912-8916-4f52-9ef7-a1f72cdddd6c)
