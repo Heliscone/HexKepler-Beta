@@ -1,6 +1,8 @@
 # HexKepler-Beta
 Very beta print files and instructions for the HexKepler automated print ejection system for Bambulab Printers
 
+I expect it'll be finalized earliest december, probably closer to new years! In fact, 1/1/2024 is my goal for publishing a fully-polished-everything. :) 
+
 Hey there! This read-me is still being written, but here are very rudimentary assembly instructions. I recommend printing the parts in ABS as in the .3mf file. (The Short Arm especially)
 
 **Cutting Leadscrews to Length**
