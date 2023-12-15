@@ -60,7 +60,7 @@ M17 X0.8 Y0.8 Z0.5 ; lower motor current to 45% power
 G1 Z256 ;down we gooooo
 M106 P2 S225 ;whooooooooooosh fan go blow
 M106 P3 S225 ;whooooooosh other fango blow
-M190 S25 ;cold cold cold cold cold
+M190 S35 ;cold cold cold cold cold
 G4 S300 ;just you waittttttt
 ;i will send a fully armed batallion to remind you of my love -King George
 ;EJECT HERE.
