@@ -56,11 +56,13 @@ M1002 set_gcode_claim_speed_level : 0
 M17 X0.8 Y0.8 Z0.5 ; lower motor current to 45% power
 
 ; ======== LETS GET EJECTING WHOOOO
-M106 P2 S225 ;whooooooooooosh fan go blow
-M106 P3 S225 ;whooooooosh other fango blow
-M190 S35 ;cold cold cold cold cold
-G1 Z256 ;down we gooooo
-G4 S300 ;just you waittttttt
-;i will send a fully armed batallion to remind you of my love -King George
+M106 P2 S225 ;Fan
+M106 P3 S225 ;Other Fan
+M190 R40 ;Wait for the bed to reach 40C
+M106 P2 S0
+M106 P3 S0
+M140 S0 ;Set bed temp to 0
+G1 Z256 ;Go to the bottom
+G4 S300 ;Wait 5 minutes
 ;EJECT HERE.
-G1 Z100 ;uppppp we go like a balloooon!
+G1 Z50 ;return up
