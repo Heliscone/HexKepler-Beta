@@ -36,9 +36,8 @@ M623; end of "timelapse_record_flag"
 M400 ; wait all motion done
 M17 S
 M17 Z0.4 ; lower z motor current to reduce impact if there is something in the bottom
-{if (max_layer_z + 100.0) < 250}
-    G1 Z{max_layer_z + 100.0} F600
-    G1 Z{max_layer_z +98.0}
+{if (max_layer_z) < 180}
+    G1 Z180 F600
 {else}
     G1 Z250 F600
     G1 Z248
@@ -57,10 +56,10 @@ M1002 set_gcode_claim_speed_level : 0
 M17 X0.8 Y0.8 Z0.5 ; lower motor current to 45% power
 
 ; ======== LETS GET EJECTING WHOOOO
-G1 Z256 ;down we gooooo
 M106 P2 S225 ;whooooooooooosh fan go blow
 M106 P3 S225 ;whooooooosh other fango blow
 M190 S35 ;cold cold cold cold cold
+G1 Z256 ;down we gooooo
 G4 S300 ;just you waittttttt
 ;i will send a fully armed batallion to remind you of my love -King George
 ;EJECT HERE.
